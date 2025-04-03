@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.head1{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: xx-large;
+    color: #c8acd6;
+    font-weight: 300;
+}
+nav{
+    position: sticky;
+    background-color:  #17153b;
+    height: 60px;
+    top: 0;
+    z-index: 2;
+}
+.cont{
+    display: flex;
+    position: relative;
+    top: -20px;
+    left: 160px;
+    justify-content: space-evenly;
+    font-size: x-large;
+    list-style-type: none;
+}
+.cont, a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.cont, .hov:hover{
+    color: #c8acd6;
+    transition: .5s;
+    
+}
+.a1{
+    position: relative;
+    left: 26pc;
+}
+.a2{
+    position: relative;
+    left: 18pc;
+}
+.a3{
+    position: relative;
+    left:9pc
+}
+.me{
+    background-color: #17153b;
+    height: 36pc;
+}
+.name{
+    color: #c8acd6;;
+    position: relative;
+    left: 12pc;
+    top: 5pc;
+    font-size: 70px;
+    font-weight: 250;
+}
+.weigh{
+    font-weight: 500;
+}
+.about{
+    color: white;
+    position: absolute;
+    top: 23pc;
+    left: 5pc;
+    text-align:left;
+    font-size: xx-large;
+    font-weight: 400;
+    line-height: 35px;
+    font-style: italic;
+}
+
+/* .button{
+    width: 150px;
+    height: 70px;
+    background-color: #c8acd6;
+    position: relative;
+    left: 5pc;
+    top: 18pc;
+    text-align: center;
+    border-radius: 4px;
+}
+.button2{
+    position: relative;
+    top:16px;
+    font-size: x-large;
+    color: #17153b;
+} */
+.skill{
+    background-color:white;
+    height: 2pc;
+    text-align: center;
+}
+.skill2{
+    position: relative;
+    top: 2pc;
+    font-size: 50px;
+}
+.skill3{
+    position: relative;
+    top: 3pc;
+    font-size: 20px;
+}
+.webdesign{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 4pc;
+    left: -16pc;
+}
+.wd{
+    position: relative;
+    right: 26.5pc;
+    top: 9pc;
+    font-size: 30px;
+    font-weight: 600;
+}
+.webdevelopment{
+    width: 160px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -9pc;
+    left: 4pc;
+}
+.wdd{
+    position: relative;
+    right: 4.8pc;
+    top: -5.4pc;
+    font-size: 30px;
+    font-weight: 600;
+}
+.jones{
+    width: 445px;
+    height: 540px;
+    position: absolute;
+    top: -16pc;
+    left: 52pc;
+    border-radius: 4px;
+    clip-path: circle(50%);
+
+}
+.android{
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -23.5pc;
+    left: 26pc;
+}
+.ad{
+    position: relative;
+    right: -14pc;
+    top: -19.5pc;
+    font-size: 30px;
+    font-weight: 600;
+}
+.education{
+    background-color: whitesmoke;
+    position: relative;
+    top: 33pc;
+    height: 300px;
+}
+.edu{
+    color: #17153b;
+    position: relative;
+    top: 2pc;
+    left: 3pc;
+    font-size: 30px;
+}
+.clg{
+    color: black;
+    position: relative;
+    top: 1pc;
+    left: 4pc;
+    font-size: large;
+    font-weight: 500;
+}
+
+.year{
+    position: relative;
+    left: 50pc;
+    top: -1pc;
+}
+.per{
+    position: relative;
+    left: 70pc;
+    top: -2.5pc;
+}
+.crime{
+    color: #433d8b;
+}
+.yr{
+    position: relative;
+    left: 49.5pc;
+}
+.perc{
+    position: relative;
+    bottom: 1.5pc;
+    left: 68pc;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+    background-color: #433d8b;
+    height: 33.9pc;
+    position: relative;
+    top: 30pc;
+}
+
+.proh{
+    font-size: 30px;
+    position:relative;
+    left: 3pc;
+    top: 33pc;
+    color: whitesmoke;
+    z-index: 1;
+}
+.carousel1{
+    background-color: #c8acd6;
+    width:280px;
+    height: 400px;
+    position: relative;
+    top: 4pc;
+    border-radius: 2pc;
+    
+}
+
+
+.img1, .img2, .img3{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    left: 2.5pc;
+    top: 2pc;
+}
+.pro_button, .pro_button2, .pro_button3{
+    width: 110px;
+    height: 40px;
+    background-color: #17153b;
+    border-radius: 2pc;
+    position: absolute;
+    top: 19pc;
+    left: 7pc;
+}
+.care1, .care2{
+    position: absolute;
+    left: 2pc;
+    top: .6pc;
+}
+.care3{
+    position: absolute;
+    right: 1pc;
+    top: .6pc;
+    font-weight: 600;
+    color: white;
+}
+.care1:hover{
+    color: #c8acd6;
+}
+.care2:hover{
+    color: #c8acd6;
+}
+/* .care3:hover{
+    color: #c8acd6;
+} */
+
+.prop, .prop2, .prop3{
+    position: relative;
+    top: 16pc;
+    left: 2pc;
+}
+/* .carousel2{
+    background-color: #c8acd6;
+    width:280px;
+    height: 400px;
+    position: relative;
+    left: 35pc;
+    top: -20.8pc;
+    border-radius: 2pc;
+}
+
+.carousel3{
+    background-color: #c8acd6;
+    width:280px;
+    height: 400px;
+    position: relative;
+    left: 60pc;
+    top: 2.6pc;
+    border-radius: 2pc;
+    
+} */
+
+.contacts{
+    position: relative;
+    bottom: -30pc;
+    height: 23pc;
+    background-color: black;
+    
+}
+.conth1{
+    color: whitesmoke;
+    position: relative;
+    top: 3pc;
+    left: 3pc;
+    font-size: 30px;
+}
+.inname{
+    color: white;
+    position: absolute;
+    top: 7.6pc;
+    left: 4pc;
+}
+.inname1{
+    position: absolute;
+    left: 4pc;
+    top: 9pc;
+    width: 200px;
+    height: 2pc;
+}
+.fmail{
+    position: absolute;
+    left: 25pc;
+    top: 7.5pc;
+    color: white;
+}
+.fmail1{
+    position: absolute;
+    left: 25pc;
+    top: 8.9pc;
+    width: 350px;
+    height: 2pc;
+}
+.fcontact{
+    position: absolute;
+    left: 58pc;
+    color: white;
+    top: 7.5pc;
+}
+.fcontact1{
+    position: absolute;
+    top: 8.8pc;
+    left: 58pc;
+    width: 200px;
+    height: 2pc;
+}
+.msg{
+    color: white;
+    position: absolute;
+    top: 14em;
+    left: 4em;
+}
+.msg_box{
+    position: absolute;
+    top: 15.8em;
+    left: 4em;
+    z-index:1 ;
+    resize: horizontal;
+    
+}
+.conth2{
+    position: relative;
+    top: 11em;
+    left: 2em;
+    color: white;
+}
+
+.ico1{
+    font-size:60px;
+    position: relative;
+    top: 13.5pc;
+    left: 20pc;
+}
+.ico2{
+    font-size:60px;
+    position: relative;
+    top: 13.5pc;
+    left: 27pc;
+}
+.ico3{
+    font-size:60px;
+    position: relative;
+    top: 13.5pc;
+    left: 34pc;
+}
+.Eimg{
+    height: 200px;
+    width: 200px;
+}
+.ico1:hover{
+    font-size: 70px;
+    transition: .5s;
+    background-color: green;
+    border-radius: 35px;
+}
+.ico2:hover{
+    font-size: 70px;
+    transition: .5s;
+    color: wheat;
+    background-color:  #EA4335;
+    border-radius: 2px;
+}
+.ico3:hover{
+    font-size: 70px;
+    transition: .5s;
+    background: #833ab4;
+  background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045
+  );
+  border-radius: 24px;
+}
